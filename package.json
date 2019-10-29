@@ -128,16 +128,14 @@
     ]
   },
   "babel": {
+    "presets": [
+      "react-app"
+    ],
     "plugins": [
       [
         "@babel/plugin-proposal-decorators",
-        {
-          "legacy": true
-        }
+        { "legacy": true }
       ]
-    ],
-    "presets": [
-      "react-app"
     ]
   },
   "devDependencies": {
